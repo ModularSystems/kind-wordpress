@@ -1,0 +1,12 @@
+# secretGenerator:
+# - name: mysql-pass
+#   literals:
+#   - password=YOUR_MYSQL_ROOT_PASSWORD
+# - name: wp-config-values
+#   literals:
+#   - wp_user=YOUR_WP_DB_USERNAME
+#   - wp_pass=YOUR_WP_DB_PASSWORD
+#   - wp_db_name=YOUR_WP_DB_NAME
+#   - wp_db_prefix=YOUR_WP_DB_PREFIX
+# resources:
+#   - deployments.yaml
